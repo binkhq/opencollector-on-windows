@@ -40,4 +40,15 @@ PS C:\Users\laadmin>
 
 ## Other Notes
 
+You can create a powershell alias to save typing the docker command every time. Run `notepad $profile` in a powershell window and save this in there
+```powershell
+Function OCFunc {docker run -it --rm -v //var/run/docker.sock:/var/run/docker.sock binkhq/opencollector-on-windows $args}
+New-Alias -Name oc -Value OCFunc
+```
+
+Then you can run commands like:
+```bash
+oc eventhubbeat status
+```
+
 Pull requests welcome, no support provided by Bink and no promises anything works. #ItWorksOnMyMachine
