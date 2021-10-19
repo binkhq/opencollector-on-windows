@@ -1,3 +1,5 @@
+> :warning: Project Archived, it was super buggy in practice.
+
 [![CI status](https://github.com/binkhq/opencollector-on-windows/workflows/Release/badge.svg)](https://github.com/binkhq/opencollector-on-windows/actions?query=workflow%3ARelease)
 [![Docker Pulls](https://img.shields.io/docker/pulls/binkhq/opencollector-on-windows)](https://hub.docker.com/repository/docker/binkhq/opencollector-on-windows)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/binkhq/opencollector-on-windows?sort=date)](https://hub.docker.com/repository/docker/binkhq/opencollector-on-windows)
